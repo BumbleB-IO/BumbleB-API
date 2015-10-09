@@ -86,11 +86,11 @@ Search all BumbleB voice snippets\soundbites for a word or phrase. Punctuation w
             },
              sounds:{
                  wav:{
-                    "url": "https://s3.amazonaws.com/danielk-poc/6c0731b4b277e07c75927b53bb8793e2.wav",
+                    "url": "https://s3.amazonaws.com/bumbleb/6c0731b4b277e07c75927b53bb8793e2.wav",
 					"size": 51966
                  },
                  mp3:{
-                    "url": "https://s3.amazonaws.com/danielk-poc/6c0731b4b277e07c75927b53bb8793e2.mp3",
+                    "url": "https://s3.amazonaws.com/bumbleb/6c0731b4b277e07c75927b53bb8793e2.mp3",
 					"size": 51966
                  },
                  .... more formats
@@ -143,11 +143,11 @@ Returns meta data about a sound, by sound id. In the below example, the sound ID
 				},
 				 sounds:{
 					 wav:{
-						"url": "https://s3.amazonaws.com/danielk-poc/6c0731b4b277e07c75927b53bb8793e2.wav",
+						"url": "https://s3.amazonaws.com/bumbleb/6c0731b4b277e07c75927b53bb8793e2.wav",
 						"size": 51966
 					 },
 					 mp3:{
-						"url": "https://s3.amazonaws.com/danielk-poc/6c0731b4b277e07c75927b53bb8793e2.mp3",
+						"url": "https://s3.amazonaws.com/bumbleb/6c0731b4b277e07c75927b53bb8793e2.mp3",
 						"size": 51966
 					 },
 					 .... more formats
