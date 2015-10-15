@@ -5,7 +5,7 @@
 
 # BumbleB API Documentation
 
-BumbleB is a voice snippet\sound-bite search engine.
+BumbleB is a voice snippet search engine.
 
 ## Access and API Keys
 
@@ -54,7 +54,7 @@ Search all Soundy voice snippets\sounds for a word or phrase. Punctuation will b
 
 Search all BumbleB voice snippets\soundbites for a word or phrase. Punctuation will be stripped and ignored. Use a plus or url encode for phrases. Example [honey+im+home](http://api.bumbleb.io/v1/sounds/search?q=honey+im+home&api_key=pl3tyKWdljSBr)   
 
-[honey+im+home](http://api.bumbleb.io/v1/sounds/search?q=honey+im+home&api_key=pl3tyKWdljSBr&limit=1&offset=0) search query.
+[honey+im+home](https://api.bumbleb.io/v1/sounds/search?q=honey+im+home&api_key=pl3tyKWdljSBr&limit=1&offset=0) search query.
 
 ###### Path
 
@@ -115,9 +115,9 @@ Search all BumbleB voice snippets\soundbites for a word or phrase. Punctuation w
 
 Returns meta data about a sound, by sound id. In the below example, the sound ID is "6c0731b4b277e07c75927b53bb8793e2"
 
-    http://api.bumbleb.io/v1/sounds/6c0731b4b277e07c75927b53bb8793e2?api_key=pl3tyKWdljSBr
+    https://api.bumbleb.io/v1/sounds/6c0731b4b277e07c75927b53bb8793e2?api_key=pl3tyKWdljSBr
 
-[Example](http://api.bumbleb.io/v1/sounds/6c0731b4b277e07c75927b53bb8793e2?api_key=pl3tyKWdljSBr) get Sound by id query
+[Example](https://api.bumbleb.io/v1/sounds/6c0731b4b277e07c75927b53bb8793e2?api_key=pl3tyKWdljSBr) get Sound by id query
 
 ###### Path
 
