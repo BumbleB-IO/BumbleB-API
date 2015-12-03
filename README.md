@@ -44,7 +44,7 @@ The BumbleB API implements a REST-like interface. Connections can be made with a
 ## Search Endpoint
 
 Search all BumbleB sounds for a word or phrase. Use a url encode for multiple phrases.
-Example [honey im home](https://api.bumbleb.io/v1/sounds/search?q=honey%20im%20home&api_key=pl3tyKWdljSBr) search query.
+Example of a search query on the phrase [honey im home](https://api.bumbleb.io/v1/sounds/search?q=honey%20im%20home&api_key=pl3tyKWdljSBr).
 
 	https://api.bumbleb.io/v1/sounds/search?q=honey%20im%20home&api_key=pl3tyKWdljSBr
 
@@ -101,7 +101,7 @@ Example [honey im home](https://api.bumbleb.io/v1/sounds/search?q=honey%20im%20h
 
 Returns a sound, by id. In the below example, the sound ID is "
 
-[Example](https://api.bumbleb.io/v1/sounds/55fd781c44616ec1c9000728?api_key=pl3tyKWdljSBr) of a query for sound with id "55fd781c44616ec1c9000728"
+[Example](https://api.bumbleb.io/v1/sounds/55fd781c44616ec1c9000728?api_key=pl3tyKWdljSBr) of a sound by id query
 
 	https://api.bumbleb.io/v1/sounds/55fd781c44616ec1c9000728?api_key=pl3tyKWdljSBr
 
@@ -145,7 +145,7 @@ Returns a sound, by id. In the below example, the sound ID is "
 ## Trending Endpoint
 
 Get BumbleB sounds that are currently most popular. You can get up to 100 sounds results.
-Example (https://api.bumbleb.io/v1/sounds/trending?api_key=pl3tyKWdljSBr) of a trending query.
+[Example] (https://api.bumbleb.io/v1/sounds/trending?api_key=pl3tyKWdljSBr) of a trending query.
 
 	https://api.bumbleb.io/v1/sounds/trending?api_key=pl3tyKWdljSBr
 
