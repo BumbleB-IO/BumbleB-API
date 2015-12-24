@@ -35,7 +35,7 @@ The BumbleB API implements a REST-like interface. Connections can be made with a
 
 ###### Host
 
-    api.bumbleb.com
+    api.bumbleb.io
 
 ###### Parameters
 
