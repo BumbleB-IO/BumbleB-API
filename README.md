@@ -197,3 +197,9 @@ Get BumbleB sounds that are currently most popular. You can get up to 100 sounds
         "offset": 0
     }
 	}
+
+## Client Helpers
+
+[BumblB-API client for iOS in Objective-C] (https://github.com/BumbleB-IO/BumbleB-iOS)
+
+[BumblB-API client for Android] (https://github.com/BumbleB-IO/BumbleB-Android)
