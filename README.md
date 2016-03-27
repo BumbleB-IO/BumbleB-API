@@ -65,25 +65,34 @@ Example of a search query on the phrase [honey im home](https://api.bumbleb.io/v
 	{
     "data": [
         {
-            "type": "sound",
-			"id": "6c0731b4b277e07c75927b53bb8793e2",
-			"title": "The Thirteenth Floor",
-			"transcription": "Hi honey, I'm home.  Did you miss me?",
-			"duration": 4,
-			"import_datetime": "2015-09-19T14:58:35.863+00:00",
-			"release_datetime": "1999-05-28",
-            image: {
-                    	"url": "https://dhhymw1agiix5.cloudfront.net/tt0139809/poster.jpg"",
-			"width": 147,
-			"height": 225
+            "id": "56bcb5cc36e2fb044c35faa1",
+            "sounds": {
+                "mp3": {
+                    "url": "http://www.soundboard.com/mediafiles/od/odk4mjyyndyzodk4mza3_ywju3wya_2bsa.mp3",
+                    "type": "mp3"
+                }
             },
-             sounds:{
-                 wav:{
-                    	"url": "https://d3fzkdiefbjnh9.cloudfront.net/55fd781c44616ec1c9000728.wav",
-			"size": 51966
-                 }
-                 .... more formats if available
-             },
+            "title": "Family Guy",
+            "transcription": "Im a homo",
+            "icon": {
+                "url": "https://dhhymw1agiix5.cloudfront.net/soundIcon.png",
+                "height": 240,
+                "width": 160
+            },
+            "duration": 1,
+            "import_date": "2016-02-11T16:24:44.606Z",
+            "category": "series",
+            "subCategories": [
+                "Animation",
+                "Comedy"
+            ],
+            "image": {
+                "url": "https://dhhymw1agiix5.cloudfront.net/tt0182576/poster.jpg",
+                "height": 346,
+                "width": 300
+            },
+            "release_date": "1999-01-30T22:00:00.000Z",
+            "source": "http://www.soundboard.com/sb/Family_Guy_Brian_the_Dog"
         },
         ... 24 more items
     ],
@@ -97,14 +106,14 @@ Example of a search query on the phrase [honey im home](https://api.bumbleb.io/v
         "offset": 0
     }
 	}
-
+	
 ## Get Sound by ID Endpoint
 
 Returns a sound, by id. In the below example, the sound ID is "
 
-[Example](https://api.bumbleb.io/v1/sounds/55fd781c44616ec1c9000728?api_key=pl3tyKWdljSBr) of a sound by id query
+[Example](https://api.bumbleb.io/v1/sounds/56bcb5cc36e2fb044c35faa1?api_key=pl3tyKWdljSBr) of a sound by id query
 
-	https://api.bumbleb.io/v1/sounds/55fd781c44616ec1c9000728?api_key=pl3tyKWdljSBr
+	https://api.bumbleb.io/v1/sounds/56bcb5cc36e2fb044c35faa1?api_key=pl3tyKWdljSBr
 
 ###### Path
 
@@ -116,25 +125,34 @@ Returns a sound, by id. In the below example, the sound ID is "
 	{
     "data": [
         {
-            "type": "sound",
-			"id": "6c0731b4b277e07c75927b53bb8793e2",
-			"title": "The Thirteenth Floor",
-			"transcription": "Hi honey, I'm home.  Did you miss me?",
-			"duration": 4,
-			"import_datetime": "2015-09-19T14:58:35.863+00:00",
-			"release_datetime": "1999-05-28",
-            image: {
-                    	"url": "https://dhhymw1agiix5.cloudfront.net/tt0139809/poster.jpg"",
-			"width": 147,
-			"height": 225
+            "id": "56bcb5cc36e2fb044c35faa1",
+            "sounds": {
+                "mp3": {
+                    "url": "http://www.soundboard.com/mediafiles/od/odk4mjyyndyzodk4mza3_ywju3wya_2bsa.mp3",
+                    "type": "mp3"
+                }
             },
-             sounds:{
-                 wav:{
-                    	"url": "https://d3fzkdiefbjnh9.cloudfront.net/55fd781c44616ec1c9000728.wav",
-			"size": 51966
-                 }
-                 .... more formats if available
-             },
+            "title": "Family Guy",
+            "transcription": "Im a homo",
+            "icon": {
+                "url": "https://dhhymw1agiix5.cloudfront.net/soundIcon.png",
+                "height": 240,
+                "width": 160
+            },
+            "duration": 1,
+            "import_date": "2016-02-11T16:24:44.606Z",
+            "category": "series",
+            "subCategories": [
+                "Animation",
+                "Comedy"
+            ],
+            "image": {
+                "url": "https://dhhymw1agiix5.cloudfront.net/tt0182576/poster.jpg",
+                "height": 346,
+                "width": 300
+            },
+            "release_date": "1999-01-30T22:00:00.000Z",
+            "source": "http://www.soundboard.com/sb/Family_Guy_Brian_the_Dog"
         }
     ],
     "meta": {
@@ -166,25 +184,36 @@ Get BumbleB sounds that are currently most popular. You can get up to 100 sounds
 	{
     "data": [
         {
-            	"type": "sound",
-		"id": "55c5cb7d44616e400f000331",
-		"title": "Casino Royale",
-		"transcription": "The name's Bond... James Bond.",
-		"duration": 4,
-		"import_datetime": "2015-08-08T09:27:25.607Z",
-		"release_datetime": "2006-11-17T00:00:00.000Z",
-		"source": "http://www.dailywav.com/",
-		"image": {
-			"url": "https://dhhymw1agiix5.cloudfront.net/tt0381061/poster.jpg",
-			"width": 300,
-			"height": 446
-		},
-		"sounds": {
-			"wav": {
-			"url": "https://d3fzkdiefbjnh9.cloudfront.net/55c5cb7d44616e400f000331.wav",
-			"size": 19076
-		}
-	},
+        "id": "56bcafda36e2fb044c359c48",
+        "sounds": {
+            "wav": {
+                "url": "http://www.dailywav.com/sites/default/files/wavs/thename_0.wav",
+                "type": "wav"
+            }
+        },
+        "title": "Casino Royale",
+        "transcription": "The name's Bond... James Bond.",
+        "icon": {
+            "url": "https://dhhymw1agiix5.cloudfront.net/soundIcon.png",
+            "height": 240,
+            "width": 160
+        },
+        "duration": 5,
+        "import_date": "2016-02-11T15:59:22.208Z",
+        "category": "movie",
+        "subCategories": [
+            "Action",
+            "Adventure",
+            "Thriller"
+        ],
+        "image": {
+            "url": "https://dhhymw1agiix5.cloudfront.net/tt0381061/poster.jpg",
+            "height": 446,
+            "width": 300
+        },
+        "release_date": "2006-11-16T22:00:00.000Z",
+        "source": "http://www.dailywav.com/shows/casino-royale"
+    },
         ... 24 more items
     ],
     "meta": {
